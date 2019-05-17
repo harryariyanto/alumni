@@ -1,0 +1,162 @@
+/*------------------ GLOBAL -------------------*/
+.btn{
+	font-size:14px;
+}
+.btn-purple{
+	background-color: #636;
+	color: #fff;
+	padding: 8px 15px;
+	border-radius: 5px;
+}
+.btn-pink{
+	background-color: #e40086;
+	color: #fff;
+	padding: 8px 15px;
+	border-radius: 5px;
+}
+.btn-primary{
+	/* color: #fff; */
+	padding: 8px 15px;
+	border-radius: 5px;
+}
+button.btn-delete {
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    background: transparent;
+    border: none;
+    font-size: 18px;
+}
+button.btn-delete:hover {
+    color: red;
+}
+.panel.panel-default.comment-card {
+	position: relative;
+	overflow: auto;
+}
+.section{
+	margin-top: 30px;
+}
+
+/*------------------ HEADER -------------------*/
+#fh5co-logo img {
+	max-height: 55px;
+}
+.fh5co-nav .top-menu {
+	padding: 10px 0;
+}
+.fh5co-nav ul {
+	margin-top: 15px;
+}
+li.li-btn > a {
+	padding: 5px !important;
+}
+#fh5co-offcanvas ul .li-btn {
+    margin-top: 15px;
+    margin-left: -5px;
+}
+
+/*------------------ HOME -------------------*/
+.fh5co-heading {
+    margin-bottom: 3em;
+}
+
+#fh5co-course {
+    padding-bottom: 0;
+}
+
+/*------------------ ABOUT -------------------*/
+
+
+/*------------------ NEWS -------------------*/
+a.course-img {
+    height: 250px;
+}
+.btn-comment{
+	margin:8px;
+}
+.widget-area {
+	display: inline-grid;
+	background-color: #fff;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-box-shadow: 0 0 16px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0 0 16px rgba(0, 0, 0, 0.2);
+	-ms-box-shadow: 0 0 16px rgba(0, 0, 0, 0.2);
+	-o-box-shadow: 0 0 16px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 0 16px rgba(0, 0, 0, 0.2);
+	float: left;
+	padding: 25px 30px;
+	position: relative;
+	width: 100%;
+}
+.comment-form {
+	background: none repeat scroll 0 0 #f5f5f5;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+	border-radius: 4px;
+	float: left;
+	width: 100%;
+}
+.comment-form form {
+	float: left;
+	width: 100%;
+}
+.comment-form form textarea {
+	background: none repeat scroll 0 0 #fff;
+	border: medium none;
+	-webkit-border-radius: 4px 4px 0 0;
+	-moz-border-radius: 4px 4px 0 0;
+	-ms-border-radius: 4px 4px 0 0;
+	-o-border-radius: 4px 4px 0 0;
+	border-radius: 4px 4px 0 0;
+	color: #777777;
+	float: left;
+	font-family: Lato;
+	font-size: 14px;
+	height: 142px;
+	letter-spacing: 0.3px;
+	padding: 20px;
+	width: 100%;
+	resize:vertical;
+	outline:none;
+	border: 1px solid #F2F2F2;
+}
+.comment-image{
+	height:60px;
+	margin-top: 15px;
+    margin-left: 5px;
+}
+.comment-card {
+    display: inline-flex;
+	padding: 10px;
+	margin: 20px 0 0 0;
+	border-color: rgba(0, 0, 0, 0.08);
+}
+.comment-info {
+    font-size: 13px;
+}
+.comment-content {
+    line-height: 1.4;
+    margin-top: 5px;
+}
+
+/*------------------ DISCUSSIONS -------------------*/
+
+
+
+
+/*------------------ MEMBERS -------------------*/
+
+
+
+/*------------------ FOOTER -------------------*/
+#fh5co-footer .fh5co-footer-links li {
+	color: rgba(255, 255, 255, 0.5);
+	text-decoration: none;
+}
